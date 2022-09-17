@@ -1,0 +1,29 @@
+.header--principal {
+    //background: url("../../../img/background-header.jpg") top right no-repeat;
+    background-blend-mode: multiply;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+
+    .imagenLogo {
+        width: 16rem;
+        height: 15rem;
+    }
+}
+
+
+.navegacion {
+    padding-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: var(--regular);
+}

@@ -1,0 +1,39 @@
+.footer--principal {
+    background-color: var(--primary-color);
+    
+}
+
+.navegacion--footer {
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--secondary-color);
+    .imagenLogo {
+        width: 4rem;
+        height: 5rem;
+    }
+
+}
+
+.navegacion--redes {
+    padding: 2rem 0;
+    color: var(--secondary-color);
+    text-align: center;
+
+    p {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+
+    nav {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    img {
+        width: 3rem;
+        height: 3rem;
+    }
+}

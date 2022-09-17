@@ -1,0 +1,17 @@
+.boton-verde{
+    background-color: var(--bg-boton-verde);
+    color: var(--secondary-color);
+    font-weight: var(--bold);
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    text-align: center; 
+    display: block;
+    border: none;
+    margin-top: 0.8rem;
+    border-radius: 0.5rem;
+    &:hover{
+        background-color: darken(#346800,5);
+        cursor: pointer;
+    }
+}
